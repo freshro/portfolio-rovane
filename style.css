@@ -1,0 +1,17 @@
+ header,nav,ul{
+    display: flex;
+    align-items: center;
+
+ }
+ header{
+    justify content: space-between;
+ }
+
+ul,nav{
+    list-style: none;
+    gap: 11px;
+} 
+
+a{
+    text-decoration: none;
+    }
