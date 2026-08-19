@@ -27,9 +27,9 @@ header nav {
    display: flex;
    align-items: center;
    justify-content: space-between;
-   min-height: calc(100vh - 300px);
+       min-height: calc(100vh - 310px);
    padding: 4rem 10%;
-   gap: 10px;
+      gap: 10px;
 }
 
 .hero-left img {
