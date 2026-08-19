@@ -3,11 +3,14 @@ nav,
 ul {
    display: flex;
    align-items: center;
+   background-color: #7484b8;
+   padding: 5px 10px;
+   border-radius: 25px;
 }
 
 header {
    justify-content: space-between;
-   padding: 20px 80px;
+   padding: 10px 10%;
 }
 
 header nav ul {
@@ -27,9 +30,9 @@ header nav {
    display: flex;
    align-items: center;
    justify-content: space-between;
-       min-height: calc(100vh - 310px);
+   min-height: calc(100vh - 310px);
    padding: 4rem 10%;
-      gap: 10px;
+   gap: 10px;
 }
 
 .hero-left img {
@@ -63,4 +66,14 @@ header nav {
    100% {
       transform: translateY(25px);
    }
+}
+
+button{
+   padding: 10px 20px;
+   border-radius: 10px;
+   border: none;
+   background-color: #7484b8;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+   box-shadow: inset 7px 5px 5px rgba(0, 0, 0, 0.2);
 }
